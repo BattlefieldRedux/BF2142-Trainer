@@ -1,0 +1,182 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 199
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 110
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 202, 120
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BF2142 Trainer"
+FONT 8, "Verdana", 0, 0, 0x0
+BEGIN
+    CTEXT           "Included BF2142 Cheats",IDC_STATIC,2,7,197,8
+    PUSHBUTTON      "&About",IDC_ABOUT,95,96,50,14,BS_FLAT
+    PUSHBUTTON      "E&xit",IDC_EXIT,149,96,50,14,BS_FLAT
+    GROUPBOX        "Options",IDC_STATIC,2,20,197,60
+    LTEXT           "Numpad 1 - Enemys on Minimap",IDC_STATIC,12,28,166,10
+    LTEXT           "Numpad 2 - Enemy Nametags",IDC_STATIC,12,36,167,10
+    LTEXT           "Cheat Responsibly",IDC_STATIC,3,96,76,14,WS_DISABLED
+    LTEXT           "Numpad 3 - 3D Map Distance",IDC_STATIC,12,44,153,10,SS_CENTERIMAGE
+    LTEXT           "Hotkeys Toggle ON / OFF",IDC_STATIC,117,82,82,10,WS_DISABLED
+    LTEXT           "Numpad 4 - Fog/smoke/dust removal +viewdistance ",IDC_STATIC,12,52,176,10,SS_CENTERIMAGE
+    LTEXT           "Numpad 5 - No Sky",IDC_STATIC,12,61,81,10,SS_CENTERIMAGE
+    LTEXT           "Numpad 6 - enable developer only commands",IDC_STATIC,12,68,158,10,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,3,3,7
+ PRODUCTVERSION 1,3,3,7
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "<redacted>"
+            VALUE "FileDescription", "<redacted>"
+            VALUE "FileVersion", "1, 3, 3, 7"
+            VALUE "InternalName", "<redacted>"
+            VALUE "LegalCopyright", "Copyright (C) 2010"
+            VALUE "OriginalFilename", "klaw.exe"
+            VALUE "ProductName", "<redacted>"
+            VALUE "ProductVersion", "1, 3, 3, 7"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+ID_VIEW_LARGEICON       BITMAP                  "bitmap1.bmp"
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
